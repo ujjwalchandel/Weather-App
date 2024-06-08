@@ -15,6 +15,23 @@ body {
   background-size: cover;
   background-position: center ;
 }
+
+.search-box input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #356e66;
+  outline: none;
+  border-radius: 10px;
+  font-size: 22px;
+  color: #0f8199;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 48px 0 42px;
+  text-decoration-color: gray;
+
+}
  
 .box2{
   position: relative;
@@ -51,22 +68,6 @@ body {
   
 }
 
-.search-box input {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  border: 2px solid #356e66;
-  outline: none;
-  border-radius: 10px;
-  font-size: 22px;
-  color: #0f8199;
-  font-weight: 500;
-  text-transform: uppercase;
-  padding: 0 48px 0 42px;
-  text-decoration-color: gray;
-
-}
 
 .search-box input::placeholder {
   color: #0f8199;
